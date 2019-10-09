@@ -1,0 +1,5 @@
+<mapper namespace="com.legend.demo.repository.BoyMapper">
+    <select id="queryAllBoy" resultHandler="com.legend.demo.handler.BoyListHandler">
+        select * from boy
+    </select>
+</mapper>

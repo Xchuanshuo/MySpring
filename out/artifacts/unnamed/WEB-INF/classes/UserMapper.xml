@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.legend.demo.repository.UserMapper">
+
+    <select id="queryUser" resultType="com.legend.model.User">
+        select * from user where username = #{username} AND password = #{password}
+    </select>
+
+</mapper>
